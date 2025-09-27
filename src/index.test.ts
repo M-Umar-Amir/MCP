@@ -1,5 +1,4 @@
-import { SampleMCPServer } from '../index.js';
-import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
+import { SampleMCPServer } from './index.js';
 
 // Mock the transport to avoid stdio issues in tests
 jest.mock('@modelcontextprotocol/sdk/server/stdio.js');

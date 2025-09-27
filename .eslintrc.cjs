@@ -12,5 +12,14 @@ module.exports = {
   env: {
     node: true,
     es2022: true,
+    jest: true,
+  },
+  globals: {
+    'jest': 'readonly',
+    'describe': 'readonly',
+    'test': 'readonly',
+    'expect': 'readonly',
+    'beforeEach': 'readonly',
+    'afterEach': 'readonly',
   },
 };
